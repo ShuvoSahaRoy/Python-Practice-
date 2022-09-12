@@ -1,5 +1,5 @@
-from numpy import *
-
+# import numpy as np
+from array import *
 arr = array([1, 2, 3, 4, 5])
 
 NewAr = arr + 5

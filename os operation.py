@@ -33,11 +33,11 @@ print(os.getcwdb())
 
 
 # to get all path, directories and all files name
-# for dirpath, dirnames, filenames in os.walk(os.getcwdb()):
-#     print('Current path:', dirpath)
-#     print('Directories:', dirnames)
-#     print('Files:', filenames)
-#     print()
+for dirpath, dirnames, filenames in os.walk(os.getcwdb()):
+    print('Current path:', dirpath)
+    print('Directories:', dirnames)
+    print('Files:', filenames)
+    print()
 
 BASE_DIR = os.getcwd()
 print(os.path.join(BASE_DIR, 'new_file.txt'))

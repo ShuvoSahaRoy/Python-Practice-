@@ -1,17 +1,17 @@
 
-"""x = ['shuvo',6,4,67,0]
+# x = ['shuvo',6,4,67,0]
+#
+# for i in x:
+#     print(i)
 
-for i in x:
-    print(i)
-"""
-"""x = 'shuvo'
-for i in x:
-    print(i)
-"""
+# x = 'shuvo'
+# for i in x:
+#     print(i)
 
-"""for i in ['shuvo',21,42,248]:
-    print(i)
-"""
+#
+# for i in ['shuvo',21,42,248]:
+#     print(i)
+
 """for i in range(10):
     print(i)
 """
