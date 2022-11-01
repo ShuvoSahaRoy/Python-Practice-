@@ -1,5 +1,7 @@
 #read
-file = open("file.txt", 'r')
+import os.path
+
+# file = open("file.txt", 'r')
 # # rdline = file.readline()
 #
 # count = 0
@@ -30,10 +32,10 @@ file = open("file.txt", 'r')
 # for line in file:
 #     count+=1
 # print(count)
-import csv
-with open("../check.txt") as f:
-    l = f.readline()
-    new_list= l.split(" ")
+# import csv
+# with open("../check.txt") as f:
+#     l = f.readline()
+#     new_list= l.split(" ")
     # print(len(new_list))
 
 with open("name_phn.csv", "w", newline="") as csvfile:
@@ -42,7 +44,5 @@ with open("name_phn.csv", "w", newline="") as csvfile:
     for i in range(len(new_list)):
         split_name_number = new_list[i].split(",")
         csv_writer.writerow(split_name_number)
-        
-    
 
 
