@@ -1,7 +1,7 @@
 import pyautogui
 import time
 # print(pyautogui.size())
-# time.sleep(5)
+time.sleep(5)
 # #for i in range(300):
 # #     pyautogui.moveTo(1390,285)
 # #     position = pyautogui.position()
@@ -15,27 +15,29 @@ import time
 #     pyautogui.click(position)
 #     # if position.
 #
+#
+# time.sleep(5)
+# connect_button_position = 1609,179
+# tab1 = 180,12
+# tab2 = 425,13
+# def click():
+#     pyautogui.click(tab1)
+#     pyautogui.click(connect_button_position)
+#     time.sleep(2)
+#     pyautogui.click(tab2)
+#     time.sleep(2)
+#     pyautogui.click(connect_button_position)
+#
+# click()
+# while(1):
+#     time.sleep(5400)
+#     click()
+#     time.sleep(5)
+#     click()
 
-time.sleep(5)
-connect_button_position = 1609,179
-tab1 = 180,12
-tab2 = 425,13
-def click():
-    pyautogui.click(tab1)
-    pyautogui.click(connect_button_position)
-    time.sleep(2)
-    pyautogui.click(tab2)
-    time.sleep(2)
-    pyautogui.click(connect_button_position)
-
-click()
-while(1):
-    time.sleep(5400)
-    click()
-    time.sleep(5)
-    click()
-
-
+robot = 805, 588
+position = pyautogui.position()
+print(position)
 
 
 # pyautogui.moveRel(-100,100)
