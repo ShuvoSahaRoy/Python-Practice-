@@ -13,7 +13,7 @@ for url in all_urls:
         link = i.find('a', href=True)
         if link is None:
             continue
-        link = "https://goodporn.to/" + link['href']
+        link = "https://****.to/" + link['href']
         urls.append(link)
 
     name = ((soup.find('title')).string.split("-")[1])

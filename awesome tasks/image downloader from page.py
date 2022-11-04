@@ -10,7 +10,7 @@ for i in soup.find_all("li", class_="page"):
     link = i.find('a', href=True)
     if link is None:
         continue
-    link = "https://goodporn.to/" + link['href']
+    link = "https://****/" + link['href']
     urls.append(link)
 
 name = ((soup.find('title')).string.split("-")[1])
